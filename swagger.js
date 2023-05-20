@@ -13,7 +13,7 @@ const doc = {
     title: 'MongoDB Movie API',        // by default: 'REST API'
     description: 'CSE 341 Spring 23 MongoDB Movie API',  // by default: ''
   },
-  host: 'cse-342-spring23-w05.onrender.com',
+  host: 'cse-342-spring23-w05-personal-working.onrender.com',
 //   host: 'localhost:3000',
   basePath: '',
   schemes: [https],
