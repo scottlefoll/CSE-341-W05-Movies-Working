@@ -81,7 +81,7 @@
         "description": "Get single movie by Title (ie. 'avatar') - case insensitive",
         "parameters": [
           {
-            "title": "title",
+            "name": "title",
             "in": "path",
             "type": "string"
           }
@@ -98,7 +98,7 @@
           "description": "Get all movies match a partial title (ie. 'avat') - case insensitive",
           "parameters": [
             {
-              "title": "title",
+              "name": "title",
               "in": "path",
               "type": "string"
             }
