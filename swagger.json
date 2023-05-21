@@ -120,9 +120,6 @@
             "schema": {
               "type": "object",
               "properties": {
-                "_id": {
-                  "example": "avatar_2009"
-                },
                 "Title": {
                   "example": "Avatar"
                 },

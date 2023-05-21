@@ -178,11 +178,8 @@ async function getMoviesByPartialTitle(req, res, title) {
 
                 } = req.body;
 
-                // if _id is not provided, concatenate title and year and replace spaces with underscores
-                // to create a unique ID
-                if (!_id) {
-                    _id = `${Title}_${Year}`.replace(/\s/g, '').toLowerCase();
-                }
+                // create a unique ID
+                _id = `${Title}_${Year}`.replace(/\s/g, '').toLowerCase();
 
                 const newMovie =
                 {
